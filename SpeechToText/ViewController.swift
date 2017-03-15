@@ -155,12 +155,12 @@ class ViewController: UIViewController, SFSpeechRecognizerDelegate {
             audioEngine.stop()
             recognitionRequest?.endAudio()
             microphoneButton.isEnabled = false
-            microphoneButton.setTitle("Start Recording", for: .normal)
+            microphoneButton.setTitle("Say", for: .normal)
         }
         // If the audioEngine is working, the app should call startRecording() and set the title of the title of the button to “Stop Recording”.S
         else {
             startRecording()
-            microphoneButton.setTitle("Stop Recording", for: .normal)
+            microphoneButton.setTitle("Stop", for: .normal)
         }
     }
 }
