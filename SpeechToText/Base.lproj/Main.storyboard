@@ -42,11 +42,12 @@
                                     </textView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qoj-Hu-frQ">
                                         <rect key="frame" x="102" y="340" width="100" height="100"/>
+                                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="100" id="Bcg-BH-Okj"/>
                                             <constraint firstAttribute="width" constant="100" id="T8X-dG-xcb"/>
                                         </constraints>
-                                        <state key="normal" title="Say" backgroundImage="btnRecord">
+                                        <state key="normal" title="Say">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
@@ -54,6 +55,14 @@
                                         </connections>
                                     </button>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="ORh-Qd-ugd" firstAttribute="top" secondItem="sZA-pP-RxS" secondAttribute="bottom" id="ARy-Gs-OvN"/>
+                                    <constraint firstItem="ORh-Qd-ugd" firstAttribute="top" secondItem="sZA-pP-RxS" secondAttribute="bottom" id="OOm-G7-lcf"/>
+                                    <constraint firstItem="Qoj-Hu-frQ" firstAttribute="top" secondItem="ORh-Qd-ugd" secondAttribute="bottom" id="YpH-vf-Py4"/>
+                                    <constraint firstItem="sZA-pP-RxS" firstAttribute="top" secondItem="mAC-uG-e0H" secondAttribute="top" id="av3-T2-CSl"/>
+                                    <constraint firstItem="Qoj-Hu-frQ" firstAttribute="top" secondItem="ORh-Qd-ugd" secondAttribute="bottom" id="jAF-z5-dHJ"/>
+                                    <constraint firstAttribute="bottom" secondItem="Qoj-Hu-frQ" secondAttribute="bottom" id="qOB-2B-EDi"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -74,7 +83,4 @@
             <point key="canvasLocation" x="256.875" y="769.0140845070423"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="btnRecord" width="100" height="100"/>
-    </resources>
 </document>

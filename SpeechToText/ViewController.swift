@@ -25,6 +25,9 @@ class ViewController: UIViewController, SFSpeechRecognizerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // Custom the Record button
+        microphoneButton.layer.cornerRadius = microphoneButton.bounds.size.height / 2
+        
         // Default, disable the microphone button until the speech recognizer is active.
         microphoneButton.isEnabled = false
         

@@ -510,6 +510,7 @@
 				1A1049D31E797B6900A60636 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A1049D41E797B6900A60636 /* Build configuration list for PBXNativeTarget "SpeechToTextTests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +519,7 @@
 				1A1049D61E797B6900A60636 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A1049D71E797B6900A60636 /* Build configuration list for PBXNativeTarget "SpeechToTextUITests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +528,7 @@
 				1A1049D91E797B6900A60636 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
